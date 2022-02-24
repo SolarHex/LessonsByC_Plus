@@ -28,3 +28,4 @@ int main(){
     std::cout << (vse(Slon,x,y,x1,y1) ? "YES" : "NO");
     return 0;
 }
+
