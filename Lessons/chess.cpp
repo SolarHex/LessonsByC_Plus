@@ -28,17 +28,3 @@ int main(){
     std::cout << (vse(Slon,x,y,x1,y1) ? "YES" : "NO");
     return 0;
 }
-
-
-// int main() {
-// int move_type, x, y, x1, y1;
-// cin » move_type » x » y;
-// for (x1 = 0; x1 < 9; x1++ ) {
-// for (y1 = 0; y1 < 9; y1++ ) {
-// if (move_check(move_type, x, y, x1, y1) == 1) {
-// cout « x1 « y1 « " ";
-// }
-// }
-// }
-// return 0;
-// }
