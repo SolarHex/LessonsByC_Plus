@@ -23,11 +23,6 @@ int CounterDay(int begging_year,int beggining_month, int beggining_day, int year
     if (beggining_month != 12 && difference_in_year == 1) return beggining_day + perhaps;
 		else return perhaps - beggining_day;
 
-	// if(last_month == n){
-	// 	std::cout << "Your month last is (for counting): " << std::endl;
-	// 	std::cin >> n;
-	// 	int beggining_day *= n;
-	// }
 }
 
 int main()
@@ -44,10 +39,6 @@ int main()
 
 	std::cout << "Your last year: " << std::endl;
 	std::cin >> a;
-
-	std::cout << "Your month will ending in: " << std::endl;
-	std::cin >> b;
-
 	std::cout << CounterDay(x, y, z, a, b) << std::endl;
 
 }
